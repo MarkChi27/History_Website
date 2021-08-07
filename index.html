@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template.html");
+   });
+</script>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="template"></div>
+
+<div class="topic">
+  <p>On this website, you can discover significant events that shaped our society
+     throughout the history of both Canada and China.</p>
+</div>
+<div class="row">
+  <div class="side" onclick="document.location='canada/date_index.html'">
+    <img src="canada/img/canada_flag.jpeg" alt="Canada Flag" style="width:450px; height:300px;" ></img>
+    <h1 style="text-align: center;">Canada</h1>
+  </div>
+  <div class="main" onclick="document.location='china/toc.html'">
+    <img src="china/img/china_flag.jpeg" alt="China Flag" style="width: 450px; height:300px; " ></img>
+    <h1 style="text-align: center;">China</h1>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Created by Xingzhou Chi</h2>
+</div>
+
+</body>
+</html>
