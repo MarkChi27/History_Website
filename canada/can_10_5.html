@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>October 5</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">10</p>
+<p hidden id="dd">5</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/10_5.jpg" alt="October 5"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>October 5, 1984</h1>
+    <p>Marc Garneau takes off aboard the Challenger space shuttle and becomes the first Canadian in space.
+<br><br>The astronaut will go on two other space missions, in 1996 and 2000. During his career, he will spend almost 680 hours in space.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

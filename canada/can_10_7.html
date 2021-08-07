@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>October 7</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">10</p>
+<p hidden id="dd">7</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/10_7.jpg" alt="October 7"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>October 7, 1999</h1>
+    <p>Adrienne Clarkson is the second woman to be appointed Governor General of Canada. Queen Elizabeth II, Canada’s Head of State, appoints her on the recommendation of Prime Minister Jean Chrétien.
+<br><br>Clarkson will be the first Canadian of Chinese origin to become the Crown’s representative. She had been an outstanding television host, journalist and writer.
+<br><br>Her appointment marks several firsts, including the absence of a military or political background.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

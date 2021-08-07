@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>December 31</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">12</p>
+<p hidden id="dd">31</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/12_31.jpg" alt="December 31"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>December 31, 1922</h1>
+    <p>Fifteen-year-old Joseph-Armand Bombardier shows his father the vehicle he invented to travel on snow. The prototype that the teenager demonstrates is the first snowmobile. It consists of a wooden sledge on four skis, a wooden propeller and a Ford T motor.
+<br><br>Joseph-Armand Bombardier was born in Valcourt in Quebec. He started inventing at a young age, building toys for neighbourhood children. His ambition was to create a machine that would help people move easily and quickly in snow, to end the isolation of villages during winter. In 1959, he will obtain a patent for a ski-doo (called a ski-dog at the time). The vehicle will achieve great commercial success before his death in 1964.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

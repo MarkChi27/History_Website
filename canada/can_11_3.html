@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>November 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">11</p>
+<p hidden id="dd">3</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/11_3.jpg" alt="November 3"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>November 3, 1930</h1>
+    <p>The world’s first vehicular underwater tunnel from one country to another opens to traffic between Windsor, Ontario, and Detroit, Michigan.
+<br><br>Today, the 1.6-kilometre-long Detroit-Windsor Tunnel, recognized as one of the great engineering wonders of the world, is still the only international underwater-tunnel for automobiles.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

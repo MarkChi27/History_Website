@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>December 7</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">12</p>
+<p hidden id="dd">7</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/12_7.jpg" alt="December 7"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>December 7, 1941</h1>
+    <p>With the Second World War already raging, Canada declares war on Japan after that country’s devastating attack on the U.S. naval base at Pearl Harbor in Hawaii.
+<br><br>The following day, the Canadian military will impound 1,200 fishing boats belonging to Japanese Canadians. The Royal Canadian Mounted Police will close Japanese-language schools and newspapers. Overnight, Japanese Canadians will be viewed as enemies of the state.
+<br><br>In 1977, Japanese Canadians will mark 100 years of life in Canada. Despite having to overcome many obstacles, Japanese immigrants will achieve prosperity in communities across Canada.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

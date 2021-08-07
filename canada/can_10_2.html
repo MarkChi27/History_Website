@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>October 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">10</p>
+<p hidden id="dd">2</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/10_2.jpg" alt="October 2"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>October 2, 1995</h1>
+    <p>The album Jagged Little Pill by 21-year-old Canadian singer Alanis Morissette reaches the top of the charts. The album will remain in Billboard magazine’s Top 20 for an entire year and go on to sell over 30 million copies worldwide.
+<br><br>Alanis Morissette will win 7 Grammy Awards and 13 Juno Awards, and she will be inducted into the Canadian Music Industry Hall of Fame and the Canadian Music Hall of Fame.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

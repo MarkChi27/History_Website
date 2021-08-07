@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>December 5</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">12</p>
+<p hidden id="dd">5</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/12_5.jpg" alt="December 5"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>December 5, 1980</h1>
+    <p>The Currency Museum opens, in the centre block of the Bank of Canada on Wellington Street in Ottawa.
+<br><br>The museum is home to the National Currency Collection, established in 1950 by the Bank of Canada and donors. There are eight galleries, with six showcasing important periods in the history of Canada and relating the development of money over 2,500 years. The seventh gallery is dedicated to special exhibits, while the eighth is the Collector’s Corner: the most comprehensive display of Canadian numismatic material in the world.
+<br><br>In 2017, a new completely redesigned Bank of Canada Museum will open at the corner of Wellington and Bank streets.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>October 30</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">10</p>
+<p hidden id="dd">30</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/10_30.jpg" alt="October 30"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>October 30, 1995</h1>
+    <p>Quebec voters have their say in the referendum on Quebec sovereignty. By 50.6%, they vote “No” to the ballot question: “Do you agree that Quebec should become sovereign after having made a formal offer to Canada for a new economic and political partnership within the scope of the bill respecting the future of Quebec and of the agreement signed on June 12, 1995?”
+<br><br>In this referendum, voter turnout is a record 93.52%.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

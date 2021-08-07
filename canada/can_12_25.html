@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>December 25</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">12</p>
+<p hidden id="dd">25</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/12_25.jpg" alt="December 25"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>December 25, 1914</h1>
+    <p>Some British and German soldiers exchange greetings and share a few moments of peace on battlefields along the Western Front during the First World War. This patchwork Christmas truce also allows each side to retrieve and bury its dead.
+<br><br>The informal Christmas truce that stills some battlefields does not involve the Canadian Expeditionary Force, which will arrive at the front in 1915. However, as part of the British empire, Canada supports and embraces this act of peace: a rare moment of comfort for the soldiers.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

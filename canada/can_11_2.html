@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>November 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">11</p>
+<p hidden id="dd">2</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/11_2.jpg" alt="November 2"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>November 2, 1936</h1>
+    <p>Parliament passes the <b>Canadian Broadcasting Act</b>, creating the Canadian Broadcasting Corporation (CBC). Inspired by the BBC, its British counterpart, the new Crown corporation has a mandate to regulate broadcasting in Canada, transmit its own programming, and purchase and construct stations. The CBC replaces the Canadian Radio Broadcasting Commission, founded in 1932.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

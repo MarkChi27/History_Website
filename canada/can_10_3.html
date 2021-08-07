@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>October 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">10</p>
+<p hidden id="dd">3</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/10_3.jpg" alt="October 3"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>October 3, 1927</h1>
+    <p>The first commercial transatlantic telephone service between Canada and the United Kingdom is inaugurated. Canadian Prime Minister Mackenzie King speaks with his British counterpart, Stanley Baldwin.
+<br><br>Transatlantic calls will require the assistance of an operator until overseas direct dialing is introduced in 1956, nearly 30 years later. This simplified process will become possible after the placement of an undersea cable to link Newfoundland and Scotland.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

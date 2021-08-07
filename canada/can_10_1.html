@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>October 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">10</p>
+<p hidden id="dd">1</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/10_1.jpg" alt="October 1"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>October 1, 1992</h1>
+    <p>The federal government designates October as Women’s History Month in Canada. This is an opportunity to celebrate the contributions to our country by Canadian women of all backgrounds and in all eras.
+<br><br>Throughout the month of October, Canadians celebrate the achievements of women and girls who have been trailblazers in the history of Canada.
+<br><br>Two special days in women’s history are also observed in October: the International Day of the Girl Child on the 11th, and Persons Day on the 18th.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

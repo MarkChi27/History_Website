@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>December 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">12</p>
+<p hidden id="dd">2</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/12_2.jpg" alt="December 2"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>December 2, 1989</h1>
+    <p>Audrey McLaughlin becomes the first woman to lead a federal political party in Canada. She is chosen as leader of the New Democratic party (NDP) at its national convention in Winnipeg, Manitoba.
+<br><br>Audrey McLaughlin was first elected to the House of Commons for the NDP during a by-election on July 20, 1987, in the riding of Yukon. She was also the first NDP MP (male or female) to be elected in Yukon.
+<br><br>Audrey McLaughlin will resign as NDP leader in 1994.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

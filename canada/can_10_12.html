@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>October 12</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">10</p>
+<p hidden id="dd">12</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/10_12.jpg" alt="October 12"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>October 12, 1986</h1>
+    <p>The 1986 Exposition on Transportation and Communication, known as Expo 86, comes to a close in Vancouver, British Columbia.
+<br><br>More than 22 million people visited the pavilions at Expo 86, which had as its theme “World in Motion – World in Touch.”
+<br><br>Expo 86 will leave a legacy of infrastructure in Vancouver. In 1987, the Canada Pavilion will be converted to house the Vancouver Convention Centre. Expo Centre, the famed dome-shaped building, will be transformed into a science centre and will reopen as Science World in 1990. As for public transit, SkyTrain, whose Expo Line opened for Expo 86, has nearly 80 km of track today, making it the world’s longest automatic light-rail system.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

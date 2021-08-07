@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>November 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">11</p>
+<p hidden id="dd">1</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/11_1.jpg" alt="November 1"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>November 1, 1959</h1>
+    <p>Montreal Canadiens goaltender Jacques Plante makes history: he is the first goalie to wear a mask, during a game against the New York Rangers. Earlier in the game, Plante leaves the ice after his nose is broken by a puck. He returns on the condition that he be allowed to wear a mask. Coach Toe Blake has no choice but to agree to his player’s demand. The masked goaltender opens a new chapter in hockey history.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>
