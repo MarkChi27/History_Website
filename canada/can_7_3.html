@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>July 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">7</p>
+<p hidden id="dd">3</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/7_3.jpg" alt="July 3"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>July 3, 1986</h1>
+    <p>The city of Québec officially celebrates being the first city in North America to be declared a UNESCO World Heritage site.
+<br><br>The UNESCO designation, on December 3, 1985, was for the Historic District of Old Québec, an outstanding example of a fortified colonial city. Some of the city's most-visited sites include the Château Frontenac, the Dufferin Terrace, the Fortifications of Québec and the Plains of Abraham.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

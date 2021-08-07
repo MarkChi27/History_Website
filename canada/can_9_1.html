@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>September 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">9</p>
+<p hidden id="dd">1</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/9_1.jpg" alt="September 1"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>September 1, 1905</h1>
+    <p>Saskatchewan and Alberta join Confederation together as the eighth and ninth Canadian provinces.
+<br><br>By creating these provinces, the Canadian government of Wilfrid Laurier extends and occupies the land to the west of the Great Lakes, to prevent American expansionism.
+<br><br>During negotiations in 1902 and 1905, the plan was to have one large province. But things turned out differently, as Laurier opted for two provinces because they would be easier to administer.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

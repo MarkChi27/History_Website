@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>July 5</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">7</p>
+<p hidden id="dd">5</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/7_5.jpg" alt="July 5"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>July 5, 1937</h1>
+    <p>The town of Yellow Grass, Saskatchewan, registers the hottest temperature ever recorded in Canada: 45 degrees Celsius (113 degrees Fahrenheit)! That same day, a mere 80 kilometres away, the Midale town matched the temperature, setting a record that remains unbroken to this date. Back in 1937 temperatures in Canada were measured in Fahrenheit.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

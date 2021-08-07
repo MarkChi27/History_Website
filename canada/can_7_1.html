@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>July 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">7</p>
+<p hidden id="dd">1</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/7_1.jpg" alt="July 1"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>July 1, 1867</h1>
+    <p>Canadian Confederation dawns with the union of Ontario, Quebec, Nova Scotia and New Brunswick.
+<br><br>The <b>British North America Act<b> uniting the four provinces was drafted in London, England, by the "Fathers of Confederation." The legislation received Royal Assent on March 29, 1867, coming into effect on July 1, 1867.
+<br><br>On June 20, 1868, Lord Monck will declare July 1 to be Dominion Day. In 1982, the name of the holiday will be officially changed to Canada Day.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

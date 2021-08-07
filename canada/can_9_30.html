@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>September 30</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">9</p>
+<p hidden id="dd">30</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/9_30.jpg" alt="September 30"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>September 30, 1947</h1>
+    <p>In New York, the United Nations General Assembly elects Canada for its first two-year term as a non-permanent member of the Security Council.
+<br><br>The Council’s mandate is to maintain peace and international security.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>
