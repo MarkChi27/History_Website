@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>May 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">5</p>
+<p hidden id="dd">3</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/5_3.jpg" alt="May 3"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>May 3, 1915</h1>
+    <p>Lt.-Col. John McCrae composes “In Flanders Fields” in a field ambulance near the Franco-Belgium front. The day before, McCrae attended the funeral of his good friend Lt. Alexis Helmer, who was killed in the Second Battle of Ypres. Helmer’s death is believed to be the inspiration for McCrae’s poem.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

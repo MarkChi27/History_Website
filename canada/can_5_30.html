@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>May 30</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">5</p>
+<p hidden id="dd">30</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/5_30.jpg" alt="May 30"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>May 30, 2005</h1>
+    <p>The Canadian Red Cross is fined $30,000 after pleading guilty to distribution of contaminated blood. Between 1980 and 1990, an estimated 2,000 people were infected with HIV/AIDS, and another 30,000 people contracted Hepatitis C.
+<br><br>The Canadian Red Cross will no longer be involved in blood banks. It will be replaced by Canadian Blood Services and Héma-Québec. A class-action lawsuit will result in a $1-billion trust fund for victim compensation.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

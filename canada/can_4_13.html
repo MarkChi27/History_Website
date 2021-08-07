@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>April 13</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">4</p>
+<p hidden id="dd">13</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/4_13.jpg" alt="April 13"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>April 13, 1927</h1>
+    <p>The Ottawa Senators win their 10th Stanley Cup. They defeat the Boston Bruins by a score of 3 to 1 in front of 8,000 spectators filling the Ottawa Auditorium. The team has a dream season, finishing with 30 wins, 10 losses and 4 ties.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

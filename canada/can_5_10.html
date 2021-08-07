@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>May 10</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">5</p>
+<p hidden id="dd">10</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/5_10.jpg" alt="May 10"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>May 10, 1990</h1>
+    <p>The Canadian Space Agency is created by an Act of Parliament. Although active in the aerospace field for many decades, Canada did not have an official space agency until 1990. Since then, Canada has recruited six astronauts, three of whom have flown in space: Chris Hadfield, Dave Williams and Julie Payette.
+<br><br>Before the Canadian Space Agency was created, Canadian astronauts such as Marc Garneau and Roberta Bondar were invited by NASA to participate in space missions.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

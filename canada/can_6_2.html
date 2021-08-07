@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>June 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">6</p>
+<p hidden id="dd">2</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/6_2.jpg" alt="June 2"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>June 2, 1983</h1>
+    <p>Canadian folk singer Stan Rogers, 33, perishes with 22 other people at Cincinnati airport when Air Canada Flight 797 catches fire.
+<br><br>Known for songs like "Barrett's Privateers" and "Northwest Passage," Stan Rogers was born in Hamilton, Ontario, in 1949 and spent summers in Nova Scotia with his family.
+<br><br>The aviation industry will respond by increasing aircraft and runway safety measures, including in-flight smoke detectors and fire training for flight and ground crews.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

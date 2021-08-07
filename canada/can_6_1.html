@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>June 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">6</p>
+<p hidden id="dd">1</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/6_1.jpg" alt="June 1"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>June 1, 2008</h1>
+    <p>The Truth and Reconciliation Commission of Canada begins its five-year mandate to investigate the Indian Residential School System. For decades, many Indigenous children were placed in residential schools by order of the Canadian government. Some of the children were abused. The system itself was an attempt to eradicate traditional ways and assimilate the children.
+<br><br>The final report will be issued in December 2015, with a list of recommendations for acts of reconciliation, including changes and improvements to child welfare, education, language and culture, health, and justice for Indigenous people.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

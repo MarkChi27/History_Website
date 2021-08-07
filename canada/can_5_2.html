@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>May 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">5</p>
+<p hidden id="dd">2</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/5_2.jpg" alt="May 2"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>May 2, 1964</h1>
+    <p>Northern Dancer wins the Kentucky Derby, the first Canadian horse to do so. He will get a hero’s welcome when he returns home to Toronto – the mayor will even give him the key to the city!
+<br><br>The racehorse will be named 1964’s Athlete of the Year by Canadian sportswriters. Over the course of his two-year career, Northern Dancer will win 14 of the 18 races he competes in. Considered a Canadian icon, he will be the first horse inducted into the Canadian Sports Hall of Fame, in 1965.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

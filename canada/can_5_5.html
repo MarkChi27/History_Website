@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>May 5</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">5</p>
+<p hidden id="dd">5</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/5_5.jpg" alt="May 5"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>May 5, 1877</h1>
+    <p>Sitting Bull and 5,000 Sioux warriors lay down their weapons and cross into Canada. They are seeking refuge from the pursuing U.S. Army, in the Cypress Hills near Wood Mountain in what is now Saskatchewan. They hope for protection under British law after fighting the Battle of Little Big Horn, also known as Custer’s Last Stand.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

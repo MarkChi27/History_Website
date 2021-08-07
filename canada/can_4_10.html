@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>April 10</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">4</p>
+<p hidden id="dd">10</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/4_10.jpg" alt="April 10"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>April 10, 1964</h1>
+    <p>Pianist Glenn Gould gives his final public performance in Los Angeles. He is 32 and respected internationally, especially for his masterful interpretations of works by Bach. Gould will subsequently limit his concerts to radio and television.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

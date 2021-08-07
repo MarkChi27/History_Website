@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>April 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">4</p>
+<p hidden id="dd">2</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/4_2.jpg" alt="April 2"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>April 2, 1873</h1>
+    <p>The Pacific Scandal erupts. Sir John A. Macdonald’s government is accused by the Liberal opposition and the media of having accepted $350,000 (worth about $10 million today) from Montréal entrepreneur Sir Hugh Allan in exchange for the contract to build the transcontinental railway. This railway will link Canada from sea to sea.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

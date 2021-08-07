@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>May 29</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">5</p>
+<p hidden id="dd">29</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/5_29.jpg" alt="May 29"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>May 29, 1914</h1>
+    <p>The passenger ship S.S. Empress of Ireland sinks beneath the waters of the St. Lawrence River, near Rimouski, Quebec, 14 minutes after colliding with the collier S.S. Storstad.
+<br><br>Dense fog and confusion about the location and direction of the ships leads to the collision. Only 465 of the 1,477 people aboard the Empress of Ireland survive.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

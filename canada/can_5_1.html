@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>May 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">5</p>
+<p hidden id="dd">1</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/5_1.jpg" alt="May 1"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>May 1, 1997</h1>
+    <p>The Red River of the North bursts its banks, leading to the “Flood of the Century” across southern Manitoba, Minnesota and North Dakota. Melt water from an April blizzard is responsible for the flooding, and the flood waters unexpectedly rise higher than on previous occasions. The flood is considered to be the worst since 1826 and 1852.
+<br><br>Despite the floodway, constructed in 1968 to divert water around Winnipeg, over a thousand homes are destroyed, and there are billions of dollars of damage throughout the Red River Valley.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>April 16</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">4</p>
+<p hidden id="dd">16</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/4_16.jpg" alt="April 16"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>April 16, 1945</h1>
+    <p>German submarine U-190 torpedoes and sinks the HMCS Esquimalt, a minesweeper, near Halifax harbour. This is the last Canadian ship lost during the Second World War. Survivors are picked up by the HMCS Sarnia and brought back to Halifax, Nova Scotia. The Second World War will end three weeks later.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

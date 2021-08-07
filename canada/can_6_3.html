@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>June 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">6</p>
+<p hidden id="dd">3</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/6_3.jpg" alt="June 3"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>June 3, 1973</h1>
+    <p>The Société de l'Acadie du Nouveau-Brunswick (SANB) is founded in Shippagan, New Brunswick.
+<br><br>The SANB was created as a response to recommendations made in 1972 during the Congrès des francophones du Nouveau-Brunswick.
+<br><br>The SANB's mandate is to defend and promote the rights and interests of Francophones and Acadians in New Brunswick.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

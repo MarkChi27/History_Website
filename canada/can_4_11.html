@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>April 11</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">4</p>
+<p hidden id="dd">11</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/4_11.jpg" alt="April 11"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>April 11, 2000</h1>
+    <p>A proposed Species at Risk Act is tabled in the House of Commons by Canada’s Environment Minister, David Anderson. The illegal traffic in species at risk is estimated to be worth over $6 billion a year. The tabled bill shows the Canadian government’s desire to protect species facing extinction.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>
