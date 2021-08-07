@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>January 19</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">1</p>
+<p hidden id="dd">19</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/1_19.jpg" alt="January 19" class="one"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>January 19, 1950</h1>
+    <p>The Canadian twin-engine Avro CF-100 Canuck jet aircraft takes to the skies for its first test flight. Designed and built in Canada, the CF-100 is considered the best fighter of its time, though its heavy controls earn it the nickname "Lead Sled."</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

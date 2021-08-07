@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>January 15</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">1</p>
+<p hidden id="dd">15</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/1_15.jpg" alt="January 15" class="one"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>January 15, 1949</h1>
+    <p>A Canadair North Star aircraft makes the first non-stop flight across Canada. Taking off from Halifax, it lands in Vancouver 8 hours and 32 minutes later.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

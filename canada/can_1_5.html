@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>January 5</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">1</p>
+<p hidden id="dd">5</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/1_5.jpg" alt="January 5" class="two"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>January 5, 1967</h1>
+    <p>American folk singer-songwriter Jesse Winchester avoids the draft during the Vietnam War by crossing the border and settling in Canada. In August 1970, his song "Yankee Lady" will reach number 13 on the Canadian popular music charts.
+      <br><br>A symbol of the anti-Vietnam War movement, Jesse Winchester will launch his professional career in Montréal. He will become a Canadian citizen in 1973.
+      <br><br>An estimated 30,000 to 40,000 Americans will enter Canada as immigrants during this period.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

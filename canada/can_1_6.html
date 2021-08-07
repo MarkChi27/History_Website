@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>January 6</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">1</p>
+<p hidden id="dd">6</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/1_6.jpg" alt="January 6" class="one"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>January 6, 1937</h1>
+    <p>Brother André dies at the age of 91. He was the founder of St. Joseph's Oratory in Montréal, which has the third-largest basilica dome in the world. During a seven-day period, over a million people will file past Brother André's casket to honour him. He will be canonized by Pope Benedict XVI on October 17, 2010.
+<br><br>St. Joseph's Oratory of Mount Royal began as a modest chapel, built at Brother André's request in the early 1900s. Its status would be raised to that of minor basilica in 1956. Today, St. Joseph's Oratory receives over a million visitors a year from every part of the world.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>February 8</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">2</p>
+<p hidden id="dd">8</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/2_8.jpg" alt="February 8"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>February 8, 1879</h1>
+    <p>At a meeting of the Royal Canadian Institute, Canadian scientist and engineer Sandford Fleming proposes a system to divide the world into 24 time zones. He chooses the meridian of Greenwich, England, as the prime meridian, at zero degrees of longitude. This system will gradually be adopted by all countries in the 19th and 20th centuries, and is now used worldwide.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

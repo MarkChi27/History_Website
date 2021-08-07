@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>March 24</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">3</p>
+<p hidden id="dd">24</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/3_24.jpg" alt="March 24"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>March 24, 1975</h1>
+    <p>The beaver becomes an official symbol of Canada. The Act to provide for the recognition of the Beaver (Castor canadensis) as a symbol of the sovereignty of Canada receives Royal Assent.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

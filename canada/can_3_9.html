@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>March 9</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">3</p>
+<p hidden id="dd">9</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/3_9.jpg" alt="March 9"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>March 9, 1901</h1>
+    <p>Japanese Canadians gain the right to vote in British Columbia, after a court challenge. However, the decision will be overturned the following year. In 1914, 10,000 people of Japanese descent will be living in Canada. By the late 1930s, there will be more than 23,000. Japanese Canadians will regain the right to vote in 1949.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

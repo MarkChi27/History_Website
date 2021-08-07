@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>March 14</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">3</p>
+<p hidden id="dd">14</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/3_14.jpg" alt="March 14"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>March 14, 1946</h1>
+    <p>Communist Member of Parliament Fred Rose is arrested for spying for the Soviet Union. His arrest follows revelations by Igor Gouzenko, who defected from the Soviet embassy in Ottawa. The Kellock-Taschereau Royal Commission will confirm that a vast Soviet spy network in Canada is working to obtain secret information about the atomic bomb.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

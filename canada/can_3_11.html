@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>March 11</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">3</p>
+<p hidden id="dd">11</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/3_11.jpg" alt="March 11"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>March 11, 1935</h1>
+    <p>The Bank of Canada launches its first banknote series. These notes are unilingual, with matching versions available in either English or French. The fronts of the bills feature portraits of members of the Royal Family and former Canadian prime ministers. The backs show allegorical figures symbolizing Canada’s growing agricultural, industrial and commercial prosperity.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

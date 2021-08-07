@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>January 23</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">1</p>
+<p hidden id="dd">23</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/1_23.jpg" alt="January 23" class="two"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>January 23, 1922</h1>
+    <p>Canadian scientist Frederick Grant Banting and his research team test insulin on a human for the first time, treating a young patient at the Toronto General Hospital who is near death from diabetes. The patient recovers, proof of the importance of the discovery of insulin.
+<br><br>In 1923, Frederick Grant Banting and his colleague J.J.R. Macleod will jointly receive the Nobel Prize in Medicine for their discovery of insulin to treat diabetes.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

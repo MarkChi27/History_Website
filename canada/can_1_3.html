@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>January 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">1</p>
+<p hidden id="dd">3</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/1_3.jpg" alt="January 3" class="two"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>January 3, 1931</h1>
+    <p>Hockey legend Nels Stewart of the Montreal Maroons scores two goals in four seconds against the Boston Bruins, setting an NHL record. Nicknamed "Old Poison," Stewart had scored 39 goals in 44 games the previous season to win the Hart Trophy as the player most valuable to his team.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

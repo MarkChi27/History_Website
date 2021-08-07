@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>March 27</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">3</p>
+<p hidden id="dd">27</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/3_27.jpg" alt="March 27"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>March 27, 1913</h1>
+    <p>The Ottawa newspaper Le Droit publishes its first edition. The daily’s motto is “The future belongs to those who struggle.” The newspaper emerges during the fight against Regulation 17, which would have banned teaching in French in Ontario schools. Le Droit’s first offices are located above a garage on York Street in Ottawa.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

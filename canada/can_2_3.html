@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>February 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">2</p>
+<p hidden id="dd">3</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/2_3.jpg" alt="February 3"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>February 3, 1916</h1>
+    <p>A fire breaks out in the Centre Block of Canada’s Parliament Buildings. Seven people lose their lives in the blaze. The most likely cause of the fire is an unextinguished cigar discarded in a wastebasket. The Library of Parliament is saved by an alert employee who closes the library’s iron fire doors.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

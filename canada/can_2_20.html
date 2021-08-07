@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>February 20</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">2</p>
+<p hidden id="dd">20</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/2_20.jpg" alt="February 20"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>February 20, 1945</h1>
+    <p>The Government of Canada issues the first family allowance cheques to Canadian mothers. In 1945, the allowance was $5 a month for each child under the age of 5, $6 for children aged 6 to 9, $7 for those aged 10 to 12, and $8 for teenagers 13 to 15 years of age.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

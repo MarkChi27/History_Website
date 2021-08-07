@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>February 29</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">2</p>
+<p hidden id="dd">29</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/2_29.jpg" alt="February 29"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>February 29, 1936</h1>
+    <p>Born in 1936, Henri Richard was a hockey player for the Montreal Canadiens for 20 seasons. He holds the record for winning the most Stanley Cups as a National Hockey League player, with 11. Richard, known as the Pocket Rocket, is the younger brother of Hall of Famer Maurice (Rocket) Richard.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

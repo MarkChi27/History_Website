@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>January 26</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">1</p>
+<p hidden id="dd">26</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/1_26.jpg" alt="January 26"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>January 26, 1962</h1>
+    <p>The Canadian Coast Guard is officially established. Although lighthouses and rescue boats were introduced on Canada's East Coast in the 18th century, a national coast guard is created by the federal Minister of Transport, Léon Balcer, only in 1962.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

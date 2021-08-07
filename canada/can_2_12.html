@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>February 12</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">2</p>
+<p hidden id="dd">12</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/2_12.jpg" alt="February 12"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>February 12, 2010</h1>
+    <p>First day of the Vancouver Winter Olympic Games. The Games, and the performance of Canadian athletes, will provide some special, very emotional moments, including when Alexandre Bilodeau is the first Canadian athlete to win a gold medal on home soil.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>

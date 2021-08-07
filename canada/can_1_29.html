@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>January 29</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(function(){
+     $("#template").load("template2.html");
+     $("#footer_template").load("footer_template.html");
+   });
+</script>
+</head>
+<body>
+<p hidden id="mm">1</p>
+<p hidden id="dd">29</p>
+<div id="template"></div>
+
+<div class="row">
+  <div class="side">
+    <img src="img/date/1_29.jpg" alt="January 29"></img>
+  </div>
+  <div class="main">
+    <br><br><br><br>
+    <h1>January 29, 1980</h1>
+    <p>The world learns that two days earlier, Canadian Ambassador Ken Taylor helped six Americans escape from Iran during the hostage crisis. He and his staff had bravely sheltered the Americans for months after the U.S. embassy in Tehran was attacked and occupied by supporters of Ayatollah Khomeini.</p>
+  </div>
+</div>
+
+<div class="footer" id="footer_template"></div>
+
+</body>
+</html>
