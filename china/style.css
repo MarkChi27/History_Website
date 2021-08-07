@@ -1,0 +1,192 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url("img/china_flag.jpeg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 600px;
+  height: 400px;
+  margin: 5% 0px 0px 5%;
+}
+h6 {
+  margin: 0px 0px 0px 5%;
+}
+#character {
+  width: 400px;
+  height: 500px;
+  margin: 5% 0px 0px 20%;
+}
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 150%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+    margin: 5% 0px 0px 30%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+.navba {
+overflow: hidden;
+background-color: #333;
+}
+
+.navb {
+overflow: hidden;
+background-color: #ed1713;
+}
+
+.topic {
+overflow: hidden;
+background-color: #ed1713;
+text-align: center;
+}
+/* Style the navigation bar links */
+.navba a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+/* Right-aligned link */
+.navba a.first {
+margin: 0px 0px 0px 40%;
+}
+
+/* Change color on hover */
+.navba a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.navb a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+/* Right-aligned link */
+.navb a.first {
+margin: 0px 0px 0px 37%;
+}
+
+/* Change color on hover */
+.navb a:hover {
+background-color: #ddd;
+color: black;
+}
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.td:hover {
+  background-color: #ddd;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
